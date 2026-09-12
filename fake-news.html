@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Fake News</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        🌐 Responsible Netizen
+    </div>
+
+    <div class="nav-links">
+
+        <a href="index.html">Home</a>
+         <a href="about.html">About Us</a>
+        <a href="safety.html">Safety"></a>
+
+        <a href="fake-news.html" class="active">
+            Fake News
+        </a>
+
+        <a href="social-media.html">Social Media</a>
+        <a href="quiz.html">Quiz</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="conclusion.html">Conclusion</a>
+
+    </div>
+
+</nav>
+
+
+<section class="page-hero">
+
+    <h1>📰 Stop. Think. Verify.</h1>
+
+    <p>
+        Learn how to identify fake and misleading information.
+    </p>
+
+</section>
+
+
+<section class="section">
+
+    <div class="cards">
+
+        <div class="card">
+
+            <div class="icon">⚠️</div>
+
+            <h3>Sensational Headlines</h3>
+
+            <p>
+                Be careful with headlines designed to create
+                fear, anger or excitement.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">📅</div>
+
+            <h3>Check the Date</h3>
+
+            <p>
+                Old news can sometimes be presented
+                as current information.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">🔎</div>
+
+            <h3>Check the Source</h3>
+
+            <p>
+                Check whether the information comes
+                from a reliable source.
+            </p>
+
+        </div>
+
+
+        <div class="card">
+
+            <div class="icon">🖼️</div>
+
+            <h3>Check Images</h3>
+
+            <p>
+                Images can be edited or taken out of context.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section class="section light">
+
+    <div class="activity-box">
+
+        <h2>🚨 Suspicious Message</h2>
+
+        <div class="message">
+
+            URGENT! Congratulations!
+            You have won a prize.
+            Click this link immediately to claim it!
+
+        </div>
+
+
+        <div class="activity-buttons">
+
+            <button onclick="checkNews('click')">
+                Click the Link
+            </button>
+
+            <button onclick="checkNews('verify')">
+                Verify First
+            </button>
+
+        </div>
+
+
+        <p id="news-result"></p>
+
+    </div>
+
+</section>
+
+
+<!-- 30 SECOND VIDEO -->
+
+<section class="video-section">
+    <h2>🎬 Stop. Think. Verify.</h2>
+    <p>Learn why you should verify information before sharing.</p>
+
+    <div class="video-container small-video">
+        <iframe
+            src="https://www.youtube.com/embed/23vafIJ6Spg?start=0&end=30"
+            title="AI Deepfakes and Misinformation"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+
+
+<footer>
+
+    <p>
+        © 2026 Responsible Netizen |
+        Digital Awareness Project
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

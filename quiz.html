@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        🌐 Responsible Netizen
+    </div>
+
+    <div class="nav-links">
+
+        <a href="index.html">Home</a>
+         <a href="about.html">About Us</a>
+        <a href="safety.html">Safety</a>
+        <a href="fake-news.html">Fake News</a>
+        <a href="social-media.html">Social Media</a>
+
+        <a href="quiz.html" class="active">
+            Quiz
+        </a>
+
+        <a href="feedback.html">Feedback</a>
+        <a href="conclusion.html">Conclusion</a>
+
+    </div>
+
+</nav>
+
+
+<section class="page-hero">
+
+    <h1>🧠 Responsible Netizen Quiz</h1>
+
+    <p>
+        Test your digital awareness!
+    </p>
+
+</section>
+
+
+<section class="section">
+
+    <div class="quiz-container">
+
+
+        <div class="question">
+
+            <h3>
+                1. What should you do before sharing news?
+            </h3>
+
+            <button onclick="answerQ1('verify')">
+                Verify the information
+            </button>
+
+            <button onclick="answerQ1('share')">
+                Share immediately
+            </button>
+
+            <button onclick="answerQ1('ignore')">
+                Ignore the source
+            </button>
+
+            <p id="q1"></p>
+
+        </div>
+
+
+        <div class="question">
+
+            <h3>
+                2. Should you share your OTP with someone?
+            </h3>
+
+            <button onclick="answerQ2('yes')">
+                Yes
+            </button>
+
+            <button onclick="answerQ2('no')">
+                No
+            </button>
+
+            <p id="q2"></p>
+
+        </div>
+
+
+        <div class="question">
+
+            <h3>
+                3. What is a good password practice?
+            </h3>
+
+            <button onclick="answerQ3('strong')">
+                Use strong and unique passwords
+            </button>
+
+            <button onclick="answerQ3('same')">
+                Use the same password everywhere
+            </button>
+
+            <p id="q3"></p>
+
+        </div>
+
+
+        <div class="question">
+
+            <h3>
+                4. What should you do with a suspicious link?
+            </h3>
+
+            <button onclick="answerQ4('verify')">
+                Verify it first
+            </button>
+
+            <button onclick="answerQ4('click')">
+                Click immediately
+            </button>
+
+            <p id="q4"></p>
+
+        </div>
+
+
+        <div class="score-box">
+
+            <button onclick="showScore()">
+                🎉 Show My Score
+            </button>
+
+            <h2 id="score"></h2>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+
+<footer>
+
+    <p>
+        © 2026 Responsible Netizen |
+        Digital Awareness Project
+    </p>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
